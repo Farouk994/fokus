@@ -18,7 +18,7 @@ Fokus is a productivity application designed to help users minimize distractions
 
 ### **Backend**
 - **Ruby on Rails:** Provides the core API for user authentication, blockList management, and scheduling.
-- **Sidekiq:** Handles background jobs for asynchronous tasks like logging and health checks.
+- **SideKiq:** Handles background jobs for asynchronous tasks like logging and health checks.
 - **Node.js:** Manages a logging microservice for real-time log processing and storage.
 
 ### **Database**
