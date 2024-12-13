@@ -3,6 +3,7 @@ module Api
       class BlocklistsController < ApplicationController
         before_action :set_blocklist_id, only: [:show, :destroy]
         before_action :authenticate_user!
+        
         def index
           @user_blocklist = current_user.blocklists.all
           if !@user_blocklist

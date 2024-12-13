@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  start_time: 2024-12-12 17:44:54
+  end_time: 2024-12-12 17:44:54
+  days: MyString
+
+two:
+  user: two
+  start_time: 2024-12-12 17:44:54
+  end_time: 2024-12-12 17:44:54
+  days: MyString
